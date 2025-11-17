@@ -13,12 +13,12 @@ El script se encuentra aplicado a una muestra simulada con 36 observaciones en s
 
 Cuadro 1
 Condiciones de simulación
-Características	Especificación
-Tamaño de la muestra original (n)	36
-Número de variables (p)	6
-Matrices de correlaciones	Correlaciones producto-momento de Pearson empíricas. Una matriz generada de tamaño 36×6 compuesta por vectores gaussianos independientes multiplicada por la matriz diagonal inferior de la factorización de Cholesky de la matriz de correlaciones de las variables originales proporciona la muestra normativa de 6 vectores gaussianos (con 36 dimensiones) correlacionados
-Número de réplicas (B)	1000
-Tipo de distribución generadora	Muestreo con reposición por fila para preservar las correlaciones de la muestra original. Por una parte, se realiza desde la muestra original para el cálculo de la potencia estadística, generando la distribución Bootstrap empírica. Por otra parte, se ejecuta desde la muestra normativa para calcular la probabilidad Bootstrap y obtener el valor crítico Bootstrap (cuantil de orden .95) para el cálculo de la potencia estadística, generando la distribución Bootstrap normativa.
+Características =	Especificación
+1. Tamaño de la muestra original (n) = 36
+2. Número de variables (p) = 6
+3. Matrices de correlaciones = Correlaciones producto-momento de Pearson empíricas. Una matriz generada de tamaño 36×6 compuesta por vectores gaussianos independientes multiplicada por la matriz diagonal inferior de la factorización de Cholesky de la matriz de correlaciones de las variables originales proporciona la muestra normativa de 6 vectores gaussianos (con 36 dimensiones) correlacionados
+4. Número de réplicas (B) = 1000
+5. Tipo de distribución generadora = Muestreo con reposición por fila para preservar las correlaciones de la muestra original. Por una parte, se realiza desde la muestra original para el cálculo de la potencia estadística, generando la distribución Bootstrap empírica. Por otra parte, se ejecuta desde la muestra normativa para calcular la probabilidad Bootstrap y obtener el valor crítico Bootstrap (cuantil de orden .95) para el cálculo de la potencia estadística, generando la distribución Bootstrap normativa.
 
 Para la aplicación de las pruebas Q y H, se recomienda:
 1.	Ejecutar el script con las cuatro variantes de la prueba Q y con la prueba H, para obtener una evaluación más completa y robusta del ajuste a la normalidad multivariante.
