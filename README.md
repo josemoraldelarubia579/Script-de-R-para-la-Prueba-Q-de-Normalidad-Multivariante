@@ -9,11 +9,9 @@ Finalmente, se incluye el cálculo de la potencia relativa entre la prueba Q (ev
 Las partes 1 o 2 y 3 del script pueden ejecutarse localmente en una computadora personal o portátil, previa instalación del programa R (disponible en https://cran.r-project.org/bin/windows/base/), preferentemente en combinación con el entorno de desarrollo integrado RStudio (https://posit.co/download/rstudio-desktop/), que facilita la modificación (valores en azul o verde) y ejecución de los códigos. Para su funcionamiento, es necesario tener instalados y activados los paquetes nortest (Gross &, Ligges, 2022), MASS (Ripley, et al., 2025), DescTools (Signorell, 2025), stats (R Core Team, 2025a) y MVN (Korkmaz, 2025) del programa R (R Core Team, 2025b).
 Como alternativa, las partes 1 o 2 y 3 del script pueden ejecutarse en línea a través de la plataforma rdrr.io (https://rdrr.io/snippets/), la cual cuenta con los paquetes requeridos preinstalados. Si se quiere guardar la gráfica como un archivo JPG, se debe quitar los símbolos del numeral (hashtag) de las instrucciones: # jpg(), # par() y # dev.off(). Véase Apéndices 1‑3.
 Se recomienda utilizar la última versión de R. El paquete 'nortest' no especifica una versión mínima clara; la versión actual 1.0-4 funciona en R 4.4 y versiones anteriores. La versión 7.3-65 del paquete 'MASS' requiere R (≥ 4.4.0). La versión 0.99.60 del paquete 'DescTools' requiere R (≥ 4.2.0). El paquete 'stats' es un paquete base de R y se actualiza junto con R. El paquete 'MVN' necesita versiones de R de 3.5 en adelante.
-El script se encuentra aplicado a una muestra simulada con 36 observaciones en seis variables correlacionadas (Cuadro 1). No obstante, puede adaptarse a otros conjuntos de datos modificando la lista de variables, que se destaca en color azul.
+El script se encuentra aplicado a una muestra simulada con 36 observaciones en seis variables correlacionadas. No obstante, puede adaptarse a otros conjuntos de datos modificando la lista de variables, que se destaca en color azul.
 
-Cuadro 1
 Condiciones de simulación
-Características =	Especificación
 1. Tamaño de la muestra original (n) = 36
 2. Número de variables (p) = 6
 3. Matrices de correlaciones = Correlaciones producto-momento de Pearson empíricas. Una matriz generada de tamaño 36×6 compuesta por vectores gaussianos independientes multiplicada por la matriz diagonal inferior de la factorización de Cholesky de la matriz de correlaciones de las variables originales proporciona la muestra normativa de 6 vectores gaussianos (con 36 dimensiones) correlacionados
