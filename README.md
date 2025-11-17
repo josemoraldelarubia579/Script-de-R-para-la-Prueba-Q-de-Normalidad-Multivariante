@@ -32,7 +32,7 @@ Para la aplicación de las pruebas Q y H, se recomienda:
 5.	Evitar restar el número de estadísticas truncadas a cero al calcular los grados de libertad en la variante basada en la aproximación chi-cuadrado de la prueba Q.
 6.	Emplear la aproximación chi-cuadrado de la prueba Q únicamente cuando se confirme la independencia serial, mediante pruebas de contraste y análisis gráfico.
 
-Cada script puede ser ejecutado de forma independiente, ya que cuenta con su lista de datos y la llamada de los paquetes requeridos. Eliminar el símbolo de numeral o hashtag (#) antes de 'power' y 'boot_power' (de QSW o QSF) si se desea visualizar el resultado del ejemplo específico al ejecutar de forma independiente el script de este tercer apéndice.
+Cada script puede ser ejecutado de forma independiente, ya que cuenta con su lista de datos y la llamada de los paquetes requeridos. Eliminar el símbolo de numeral o hashtag (#) antes de 'power' y 'boot_power' (de QSW o QSF) si se desea visualizar el resultado de potencia relativa del ejemplo específico al ejecutar de forma independiente el script del tercer apéndice.
 
 Referencias
 1. Gross, J., & Ligges, U. (2022). Package ‘nortest’, Tests for Normality. Version 1.0-4. https://cran.r-project.org/web/packages/nortest/nortest.pdf
